@@ -10,13 +10,13 @@
 <style>
 :root {
   --bg: #f7f5f1; --panel: #ffffff; --ink: #1c1b19; --muted: #6b675f; --line: #e4e0d8;
-  --accent: #8a5a2b; --accent-soft: #f3ebe1; --green: #2f6f4e; --green-soft: #e7f2ec;
+  --accent: #8a5a2b; --accent-soft: #f3ebe1; --green: #2f6f4e; --green-soft: #e7f2ec; --blue: #2c5aa0; --blue-soft: #e8eff9;
   --next: #fff6d6; --next-line: #e2b93b;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #151412; --panel: #1e1c1a; --ink: #ece8e1; --muted: #a39e94; --line: #34312d;
-    --accent: #d39a62; --accent-soft: #2e251c; --green: #6fc39a; --green-soft: #1b2a22;
+    --accent: #d39a62; --accent-soft: #2e251c; --green: #6fc39a; --green-soft: #1b2a22; --blue: #8ab4f0; --blue-soft: #1a2433;
     --next: #3a3220; --next-line: #c9a33a;
   }
 }
@@ -55,6 +55,8 @@ td.c-owner, td.c-who, td.c-friend-trade-or-paid { color: var(--muted); }
 #checkpoints-table td.c-date { width: 150px; }
 tr.release td { background: var(--green-soft); }
 tr.release td strong { color: var(--green); }
+tr.show td { background: var(--blue-soft); }
+tr.show td strong { color: var(--blue); }
 tr.past td { opacity: .45; }
 tr.next td { background: var(--next); box-shadow: inset 0 1px 0 var(--next-line), inset 0 -1px 0 var(--next-line); }
 .tag { display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;

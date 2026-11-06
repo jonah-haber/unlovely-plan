@@ -39,11 +39,11 @@ for el in root:
             is_release = cells[0].find(".//bold") is not None
             for d in dates_in(label):
                 events.append({"date": d, "label": label, "do": clean(do), "due": clean(due),
-                               "kind": "release" if is_release else "checkpoint"})
+                               "kind": ("show" if "show" in do.lower() else "release") if is_release else "checkpoint"})
         break
 
 def short(e):
-    if e["kind"] == "release":
+    if e["kind"] in ("release", "show"):
         return e["do"]
     if e["do"]:
         first = e["do"].split(";")[0].strip()
@@ -88,11 +88,11 @@ for (y, m) in months:
     for d in sorted(k for k in by_date if k.year == y and k.month == m):
         for e in by_date[d]:
             rows = []
-            if e["do"] and e["kind"] != "release":
+            if e["do"] and e["kind"] not in ("release", "show"):
                 rows.append(f'<div class="row"><span class="k">Do together</span><span>{esc(e["do"])}</span></div>')
             if e["due"]:
                 rows.append(f'<div class="row"><span class="k">Due by then</span><span>{esc(e["due"])}</span></div>')
-            title = esc(e["do"]) if e["kind"] == "release" else "Rehearsal checkpoint"
+            title = esc(e["do"]) if e["kind"] in ("release", "show") else "Rehearsal checkpoint"
             agenda.append(
                 f'<li id="e-{d.isoformat()}" class="{e["kind"]}" data-date="{d.isoformat()}">'
                 f'<div class="when">{d.strftime("%a %b")} {d.day}</div>'
@@ -124,9 +124,9 @@ lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//unlovely//EP Cycle Plan//E
          "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:unlovely EP cycle"]
 for i, e in enumerate(events):
     d = e["date"]
-    summary = ("unlovely: " + e["do"]) if e["kind"] == "release" else ("unlovely checkpoint: " + short(e))
+    summary = ("unlovely: " + e["do"]) if e["kind"] in ("release", "show") else ("unlovely checkpoint: " + short(e))
     desc = []
-    if e["do"] and e["kind"] != "release":
+    if e["do"] and e["kind"] not in ("release", "show"):
         desc.append("Do together: " + e["do"])
     if e["due"]:
         desc.append("Due by then: " + e["due"])

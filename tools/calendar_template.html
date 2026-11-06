@@ -10,13 +10,13 @@
 <style>
 :root {
   --bg: #f7f5f1; --panel: #ffffff; --ink: #1c1b19; --muted: #6b675f; --line: #e4e0d8;
-  --accent: #8a5a2b; --accent-soft: #f3ebe1; --green: #2f6f4e; --green-soft: #e7f2ec;
+  --accent: #8a5a2b; --accent-soft: #f3ebe1; --green: #2f6f4e; --green-soft: #e7f2ec; --blue: #2c5aa0; --blue-soft: #e8eff9;
   --next: #fff6d6; --next-line: #e2b93b; --faint: #f1eee8;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #151412; --panel: #1e1c1a; --ink: #ece8e1; --muted: #a39e94; --line: #34312d;
-    --accent: #d39a62; --accent-soft: #2e251c; --green: #6fc39a; --green-soft: #1b2a22;
+    --accent: #d39a62; --accent-soft: #2e251c; --green: #6fc39a; --green-soft: #1b2a22; --blue: #8ab4f0; --blue-soft: #1a2433;
     --next: #3a3220; --next-line: #c9a33a; --faint: #191816;
   }
 }
@@ -58,6 +58,9 @@ h2 { font-size: 21px; margin: 0 0 12px; padding-bottom: 8px; border-bottom: 2px 
 .agenda li { display: grid; grid-template-columns: 86px 1fr; gap: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font-size: 13.5px; }
 .agenda li.release { background: var(--green-soft); }
 .agenda li.release .what { color: var(--green); }
+.chip.show { background: var(--blue-soft); border-left-color: var(--blue); color: var(--blue); font-weight: 600; }
+.agenda li.show { background: var(--blue-soft); }
+.agenda li.show .what { color: var(--blue); }
 .agenda li.past { opacity: .45; }
 .agenda li.next { background: var(--next); border-color: var(--next-line); }
 .agenda li.empty { display: block; color: var(--muted); }
@@ -89,12 +92,13 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
   <main>
     <header>
       <h1>Calendar</h1>
-      <div class="meta">Every rehearsal checkpoint and release day · Last updated {{UPDATED}}</div>
+      <div class="meta">Every rehearsal checkpoint, release and show · Last updated {{UPDATED}}</div>
     </header>
     <div class="bar">
       <div class="legend">
         <span style="--c:var(--accent-soft);--b:var(--accent)">Rehearsal checkpoint</span>
-        <span style="--c:var(--green-soft);--b:var(--green)">Release or show</span>
+        <span style="--c:var(--green-soft);--b:var(--green)">Release</span>
+        <span style="--c:var(--blue-soft);--b:var(--blue)">Show</span>
         <span style="--c:var(--muted)">Regular rehearsal day</span>
       </div>
       <div class="subscribe"><a href="unlovely-plan.ics">Add to your calendar</a> (Google, Apple or Outlook)</div>

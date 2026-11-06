@@ -102,7 +102,8 @@ for el in root:
             attrs = ""
             if is_ck:
                 attrs = f' data-date="{iso_date(texts[0])}"'
-            cls = ' class="release"' if is_release else ""
+            kind = ("show" if "show" in texts[1].lower() else "release") if is_release else ""
+            cls = f' class="{kind}"' if kind else ""
             tds = []
             for i, c in enumerate(cells):
                 ps = [p for p in c if p.tag == "paragraph"]
