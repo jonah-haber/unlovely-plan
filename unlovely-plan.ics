@@ -1,0 +1,392 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unlovely//EP Cycle Plan//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:unlovely EP cycle
+BEGIN:VEVENT
+UID:unlovely-2026-11-08-0@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:unlovely checkpoint: November kickoff
+DESCRIPTION:Do together: November kickoff: assign November owners\; look ah
+ ead at December\; start the songwriting credits and splits conversation\nF
+ ull plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2026-11-11-1@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:unlovely checkpoint: Record live references of candidate songs
+DESCRIPTION:Do together: Record live references of candidate songs\; agree 
+ on the budget\; agree on how songwriting credits and splits work\nDue by t
+ hen: Producer agreement signed\nFull plan: https://jonah-haber.github.io/u
+ nlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2026-11-18-2@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:unlovely checkpoint: Lock tracklist and lead single
+DESCRIPTION:Do together: Lock tracklist and lead single\; sign split sheets
+  for backlog songs\nDue by then: January–February recording dates and lo
+ cation booked\nFull plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2026-11-25-3@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:unlovely checkpoint: Due: Cover artist and photographer booked
+DESCRIPTION:Due by then: Cover artist and photographer booked\nFull plan: h
+ ttps://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2026-11-29-4@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:unlovely checkpoint: Play the new songs
+DESCRIPTION:Do together: Play the new songs\nDue by then: New songs written
+ \; mailing list and QR signup live\nFull plan: https://jonah-haber.github.
+ io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2026-12-02-5@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:unlovely checkpoint: December kickoff
+DESCRIPTION:Do together: December kickoff: assign December owners\; look ah
+ ead at January\nFull plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2026-12-09-6@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:unlovely checkpoint: Review the mood board and visual direction
+DESCRIPTION:Do together: Review the mood board and visual direction\nDue by
+  then: Release show date held\; artwork commissioned\nFull plan: https://j
+ onah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2026-12-16-7@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:unlovely checkpoint: Lock arrangements\, tempos and keys from the d
+ emos
+DESCRIPTION:Do together: Lock arrangements\, tempos and keys from the demos
+ \; new bassist's parts ready\; review the rollout calendar\nDue by then: D
+ emos done\; photo shoot done\; distributor\, PRO and SoundExchange account
+ s\; videographer booked\; someone lined up to film the tracking sessions\;
+  Feb–May shows booked so the new songs get played live before release\nF
+ ull plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-01-03-8@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:unlovely checkpoint: January kickoff
+DESCRIPTION:Do together: January kickoff: assign January owners\; look ahea
+ d at February\; decide yes or no on a publicist and radio promoter\; set u
+ p and test the new gear\nDue by then: Gear ready for tracking. Tracking st
+ arts the week of Jan 4\, single 1 first\nFull plan: https://jonah-haber.gi
+ thub.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-01-13-9@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:unlovely checkpoint: Sign split sheets for new songs
+DESCRIPTION:Do together: Sign split sheets for new songs\nDue by then: Sing
+ le 1 tracked\; single 1 video planned\; editor\, designer and writer booke
+ d\nFull plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-01-27-10@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:unlovely checkpoint: Approve single 1 mix and cover
+DESCRIPTION:Do together: Approve single 1 mix and cover\; go/no-go on relea
+ se dates\nDue by then: Single 1 video shot\; metadata sheet\; press kit\; 
+ outreach list\; publicist and radio promoter booked (optional)\nFull plan:
+  https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-02-03-11@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:unlovely checkpoint: February kickoff
+DESCRIPTION:Do together: February kickoff: assign February owners\; look ah
+ ead at March\; approve single 1 master\nFull plan: https://jonah-haber.git
+ hub.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-02-10-12@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:unlovely checkpoint: Due: Single 1 uploaded
+DESCRIPTION:Due by then: Single 1 uploaded\nFull plan: https://jonah-haber.
+ github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-02-17-13@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:unlovely checkpoint: Due: All tracking done
+DESCRIPTION:Due by then: All tracking done\; single 1 playlist pitch and pr
+ ess release\; profiles refreshed\; social templates\; release show confirm
+ ed with promoter (deposit or contract)\nFull plan: https://jonah-haber.git
+ hub.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-02-24-14@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:unlovely checkpoint: Approve single 2 mix
+DESCRIPTION:Do together: Approve single 2 mix\nDue by then: Single 1 announ
+ ced\; Canvas loop\; first clip batch\nFull plan: https://jonah-haber.githu
+ b.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-03-03-15@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:unlovely checkpoint: March kickoff
+DESCRIPTION:Do together: March kickoff: assign March owners\; look ahead at
+  April\; approve single 2 master\nDue by then: Single 1 video final\; song
+  registrations\; private links sent\; single 2 cover\; merch printer booke
+ d\nFull plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-03-10-16@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:unlovely checkpoint: Due: Single 2 uploaded
+DESCRIPTION:Due by then: Single 2 uploaded\; single 1 ads ready to launch\n
+ Full plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-03-12-17@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:unlovely: Single 1 out
+DESCRIPTION:Full plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-03-17-18@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:unlovely checkpoint: Due: Single 2 playlist pitch and press release
+DESCRIPTION:Due by then: Single 2 playlist pitch and press release\nFull pl
+ an: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-03-24-19@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:unlovely checkpoint: Approve EP cover and single 3 mix
+DESCRIPTION:Do together: Approve EP cover and single 3 mix\nDue by then: Si
+ ngle 2 announced\; Canvas loop\; release show openers confirmed with promo
+ ter\nFull plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-03-31-20@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:unlovely checkpoint: Approve single 3 master and merch designs
+DESCRIPTION:Do together: Approve single 3 master and merch designs\; decide
+  CD quantity and packaging\nDue by then: Show poster and tickets\; merch o
+ rdered\; single 3 cover\nFull plan: https://jonah-haber.github.io/unlovely
+ -plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-04-04-21@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:unlovely checkpoint: April kickoff
+DESCRIPTION:Do together: April kickoff: assign April owners\; look ahead at
+  May\nFull plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-04-07-22@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:unlovely checkpoint: Due: Single 3 uploaded
+DESCRIPTION:Due by then: Single 3 uploaded\nFull plan: https://jonah-haber.
+ github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-04-09-23@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:unlovely: Single 2 out
+DESCRIPTION:Full plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-04-14-24@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:unlovely checkpoint: Approve remaining EP mixes
+DESCRIPTION:Do together: Approve remaining EP mixes\nDue by then: EP and re
+ lease show announced\; single 3 pitch\; show photo and video crew booked\n
+ Full plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-04-21-25@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:unlovely checkpoint: Approve all EP masters
+DESCRIPTION:Do together: Approve all EP masters\nDue by then: CDs ordered\n
+ Full plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-04-28-26@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:unlovely checkpoint: Choose the EP focus track
+DESCRIPTION:Do together: Choose the EP focus track\nDue by then: EP uploade
+ d\; stems and session archive\; visualizers\; EP press push\; second clip 
+ batch\nFull plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-05-02-27@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:unlovely checkpoint: May kickoff
+DESCRIPTION:Do together: May kickoff: assign May owners\; look ahead at the
+  post-cycle review\nFull plan: https://jonah-haber.github.io/unlovely-plan
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-05-07-28@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:unlovely: Single 3 out
+DESCRIPTION:Full plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-05-12-29@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:unlovely checkpoint: Due: Merch in hand
+DESCRIPTION:Due by then: Merch in hand\nFull plan: https://jonah-haber.gith
+ ub.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-05-19-30@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+SUMMARY:unlovely checkpoint: Plan the release show set and run-of-show
+DESCRIPTION:Do together: Plan the release show set and run-of-show\nDue by 
+ then: Final promo posts and emails scheduled\; CDs in hand\nFull plan: htt
+ ps://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-05-23-31@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:unlovely checkpoint: Full release show run-throughs
+DESCRIPTION:Do together: Full release show run-throughs\nFull plan: https:/
+ /jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-05-26-32@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:unlovely checkpoint: Full release show run-throughs
+DESCRIPTION:Do together: Full release show run-throughs\nFull plan: https:/
+ /jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-05-28-33@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:unlovely: EP out
+DESCRIPTION:Full plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-05-29-34@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:unlovely: Release show
+DESCRIPTION:Full plan: https://jonah-haber.github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unlovely-2027-06-09-35@jonah-haber.github.io
+DTSTAMP:20261106T165328Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:unlovely checkpoint: Post-cycle review
+DESCRIPTION:Do together: Post-cycle review\nFull plan: https://jonah-haber.
+ github.io/unlovely-plan/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>unlovely · Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f7f5f1; --panel: #ffffff; --ink: #1c1b19; --muted: #6b675f; --line: #e4e0d8;
+  --accent: #8a5a2b; --accent-soft: #f3ebe1; --green: #2f6f4e; --green-soft: #e7f2ec;
+  --next: #fff6d6; --next-line: #e2b93b; --faint: #f1eee8;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151412; --panel: #1e1c1a; --ink: #ece8e1; --muted: #a39e94; --line: #34312d;
+    --accent: #d39a62; --accent-soft: #2e251c; --green: #6fc39a; --green-soft: #1b2a22;
+    --next: #3a3220; --next-line: #c9a33a; --faint: #191816;
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.5 Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+.wrap { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 40px;
+  max-width: 1320px; margin: 0 auto; padding: 40px 32px 80px; }
+nav { position: sticky; top: 32px; align-self: start; display: flex; flex-direction: column; gap: 2px; }
+nav .band { font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
+nav a { color: var(--muted); text-decoration: none; padding: 6px 10px; border-radius: 6px; font-size: 14px; }
+nav a:hover { background: var(--accent-soft); color: var(--ink); }
+nav a.here { color: var(--ink); font-weight: 600; background: var(--accent-soft); }
+nav .sub { margin: 14px 0 4px 10px; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+header h1 { font-size: 34px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -.02em; }
+header .meta { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+.bar { display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center; margin-bottom: 32px; }
+.legend { display: flex; gap: 18px; font-size: 13px; color: var(--muted); }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; background: var(--c); border: 1px solid var(--b, transparent); }
+.subscribe { font-size: 13px; color: var(--muted); }
+.subscribe a { color: var(--accent); font-weight: 600; }
+.month { margin-bottom: 48px; }
+h2 { font-size: 21px; margin: 0 0 12px; padding-bottom: 8px; border-bottom: 2px solid var(--ink); }
+.mwrap { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+.grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); background: var(--line); gap: 1px;
+  border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.dow { background: var(--panel); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 8px; }
+.day { background: var(--panel); min-height: 92px; padding: 6px; display: flex; flex-direction: column; gap: 4px; }
+.day.out { background: var(--faint); }
+.day.reh .num::after { content: ""; display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: var(--muted); opacity: .45; margin-left: 5px; vertical-align: 2px; }
+.day.today { box-shadow: inset 0 0 0 2px var(--accent); }
+.num { font-size: 12px; font-weight: 600; color: var(--muted); }
+.chip { display: block; overflow-wrap: anywhere; font-size: 11.5px; line-height: 1.3; padding: 3px 6px; border-radius: 5px; text-decoration: none;
+  color: var(--ink); background: var(--accent-soft); border-left: 3px solid var(--accent); }
+.chip.release { background: var(--green-soft); border-left-color: var(--green); color: var(--green); font-weight: 600; }
+.chip:hover { filter: brightness(.96); }
+.agenda { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.agenda li { display: grid; grid-template-columns: 86px 1fr; gap: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font-size: 13.5px; }
+.agenda li.release { background: var(--green-soft); }
+.agenda li.release .what { color: var(--green); }
+.agenda li.past { opacity: .45; }
+.agenda li.next { background: var(--next); border-color: var(--next-line); }
+.agenda li.empty { display: block; color: var(--muted); }
+.agenda li:target { outline: 2px solid var(--accent); }
+.when { font-weight: 700; }
+.what { font-weight: 600; margin-bottom: 2px; }
+.row { display: grid; grid-template-columns: 92px 1fr; gap: 8px; color: var(--ink); }
+.row .k { color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding-top: 2px; }
+footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 16px; }
+@media (max-width: 1100px) { .mwrap { grid-template-columns: 1fr; } }
+@media (max-width: 860px) {
+  .wrap { grid-template-columns: 1fr; padding: 24px 16px 60px; gap: 16px; }
+  nav { position: static; flex-direction: row; flex-wrap: wrap; }
+  nav .sub { display: none; }
+  .day { min-height: 64px; padding: 4px; }
+  .chip { font-size: 10px; padding: 2px 4px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <div class="band">unlovely</div>
+    <a href="index.html">The plan</a>
+    <a href="calendar.html" class="here">Calendar</a>
+    <div class="sub">Months</div>
+    {{MONTHNAV}}
+  </nav>
+  <main>
+    <header>
+      <h1>Calendar</h1>
+      <div class="meta">Every rehearsal checkpoint and release day · Last updated {{UPDATED}}</div>
+    </header>
+    <div class="bar">
+      <div class="legend">
+        <span style="--c:var(--accent-soft);--b:var(--accent)">Rehearsal checkpoint</span>
+        <span style="--c:var(--green-soft);--b:var(--green)">Release or show</span>
+        <span style="--c:var(--muted)">Regular rehearsal day</span>
+      </div>
+      <div class="subscribe"><a href="unlovely-plan.ics">Add to your calendar</a> (Google, Apple or Outlook)</div>
+    </div>
+    {{MONTHS}}
+    <footer>Click any entry to see what we do together and what's due. Full details are on <a href="index.html">the plan</a>.</footer>
+  </main>
+</div>
+<script>
+(function () {
+  var d = new Date();
+  var today = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  var t = document.querySelector('.day[data-date="' + today + '"]');
+  if (t) t.classList.add("today");
+  var found = false;
+  document.querySelectorAll(".agenda li[data-date]").forEach(function (li) {
+    var ld = li.getAttribute("data-date");
+    if (ld < today) li.classList.add("past");
+    else if (!found) { found = true; li.classList.add("next"); }
+  });
+})();
+</script>
+</body>
+</html>

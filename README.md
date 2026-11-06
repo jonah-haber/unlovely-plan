@@ -9,3 +9,4 @@ View it at https://jonah-haber.github.io/unlovely-plan/
 `tools/build_site.py` rebuilds `index.html` from an XML export of the plan doc:
 
     python3 tools/build_site.py doc.xml index.html
+    python3 tools/build_calendar.py doc.xml .   # calendar.html + unlovely-plan.ics
